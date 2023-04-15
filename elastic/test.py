@@ -12,5 +12,5 @@ def load_json(directory):
                 yield json.load(open_file)
 
 # helpers.bulk(es, load_json("K:\legal-set-backend\jsons"), index='my-index')
-helpers.bulk(es, load_json('d:\REJOICE\legal-set-backend-feature1\elastic'), index='my-inde')
+helpers.bulk(es, load_json('\legal-set-backend-feature1\elastic'), index='my-inde')
 
